@@ -8,14 +8,14 @@ const fetchUser = async () => {
         let div = document.createElement("div");
         div.classList.add("user-card")
         div.innerHTML = `
-<h1>id: ${user.id}</h1>
-<p>name: ${user.name}</p>
-<p>email: ${user.email}</p>
-<p>adress: ${user.address.city}</p>
-<p>phone:${user.phone}</p>
-<p>geolocalisation:latitude:${user.address.geo.lat}</p>
-<p>geolocalisation:longitude:${user.address.geo.lng}</p>
-<p>website:${user.website}</p>`
+<h1 class="text-class">id: ${user.id}</h1>
+<p class="text-class">name: ${user.name}</p>
+<p class="text-class">email: ${user.email}</p>
+<p class="text-class">adress: ${user.address.city}</p>
+<p class="text-class">phone:${user.phone}</p>
+<p class="text-class">geolocalisation:latitude:${user.address.geo.lat}</p>
+<p class="text-class">geolocalisation:longitude:${user.address.geo.lng}</p>
+<p class="text-class">website:${user.website}</p>`
         container.appendChild(div)
 
     })

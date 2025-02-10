@@ -27,8 +27,11 @@ body{
     flex-direction: column;
     
  gap:15px;
-    width: 370px;
+    width: 350px;
     height: 300px;
     border-radius: 9px;
     box-shadow: 3px 3px 5px #333;
+}
+.text-class{
+    font-weight: bold;
 }
